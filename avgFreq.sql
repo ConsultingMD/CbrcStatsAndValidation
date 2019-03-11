@@ -1,0 +1,2 @@
+SELECT AVG(gr_claim_id_count) AS avg_frequency
+FROM claims_spectrum.main_raw_cbrc_bronze_20190307203540;

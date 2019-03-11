@@ -1,0 +1,2 @@
+select count(distinct gr_pid)
+from claims_spectrum.main_raw_cbrc_bronze_20190307203540;
