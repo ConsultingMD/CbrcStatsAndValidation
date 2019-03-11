@@ -1,4 +1,4 @@
--- frequency (in log base 10) of counts per location
+-- log based histogram to track number of pids per location (npi)
 SELECT Count(b.count_of_count_per_npi) as cc,
        count_of_count_per_npi
 FROM
