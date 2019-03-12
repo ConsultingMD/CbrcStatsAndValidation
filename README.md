@@ -21,10 +21,13 @@ db_password : sneakyp@ssw0rd
 db_port : 15439
 ```
 
-You must also install the dependent libraries as follows:
+You must also install the dependent libraries using the environment.yml file:
 ```
-pip install psycopg2
-pip install sshtunnel
+conda env create -f environment.yml
+```
+Then activate the environment:
+```
+conda activate CbrcStatsAndValidation
 ```
 
 ## Connecting to redshift
