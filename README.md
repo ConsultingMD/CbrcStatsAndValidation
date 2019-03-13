@@ -1,5 +1,5 @@
-# CbrcStatsAndValidation
-Sql queries to be run to obtain stats and validation for the cbrc raw data
+# RedshiftBronzeStatsAndValidation
+Sql queries to be run within jupyter notebooks to obtain stats and validation for bronze datasets
 
 ## Dependencies
 In order to run this notebook you must create a dot credentials file in your home path named ".redshift_creds.ini".
@@ -27,7 +27,7 @@ conda env create -f environment.yml
 ```
 Then activate the environment:
 ```
-conda activate CbrcStatsAndValidation
+conda activate RedshiftBronzeStatsAndValidation
 ```
 
 ## Connecting to redshift
