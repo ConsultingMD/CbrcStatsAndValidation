@@ -1,4 +1,4 @@
-name: CbrcStatsAndValidation
+name: RedshiftBronzeStatsAndValidation
 channels:
   - defaults
 dependencies:
@@ -83,5 +83,5 @@ dependencies:
     - wcwidth==0.1.7
     - webencodings==0.5.1
     - widgetsnbextension==3.4.2
-prefix: /anaconda3/envs/CbrcStatsAndValidation
+prefix: /anaconda3/envs/RedshiftBronzeStatsAndValidation
 
